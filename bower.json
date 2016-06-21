@@ -1,0 +1,19 @@
+{
+  "name": "mobile-platform",
+  "appPath": "src/main/webapp",
+  "authors": [
+    "Test Tech. Lab"
+  ],
+  "description": "",
+  "main": "",
+  "license": "",
+  "homepage": "",
+  "dependencies": {
+    "angular": "^1.5.7",
+    "bootstrap": "^3.3.6",
+    "angular-resource": "^1.5.7",
+    "font-awesome": "fontawesome#^4.6.3",
+    "angular-bootstrap": "~1.3.3",
+    "angular-cookies": "~1.5.7"
+  }
+}

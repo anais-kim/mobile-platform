@@ -1,0 +1,35 @@
+<div>
+  <h3>Device List</h3>
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>deviceId</th>
+        <th>deviceName</th>
+        <th>modelId</th>
+        <th>modelName</th>
+        <th>androidOS</th>
+        <th>resolution</th>
+        <th>ip</th>
+        <th>isUsed</th>
+        <th>image</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr ng-repeat="device in deviceList">
+        <td>{{device.id}}</td>
+        <td>{{device.deviceId}}</td>
+        <td>{{device.deviceName}}</td>
+        <td>{{device.modelId}}</td>
+        <td>{{device.modelName}}</td>
+        <td>{{device.androidOS}}</td>
+        <td>{{device.resolution}}</td>
+        <td>{{device.ip}}</td>
+        <td>{{device.isUsed}}</td>
+        <td>{{device.image}}
+          <!-- <img ng-src="{{device.image}}" alt="{{device.deviceName}}" /> -->
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
